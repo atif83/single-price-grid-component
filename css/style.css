@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+*{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+font-family: 'Karla', sans-serif;
+ background: hsl(204, 43%, 93%);
+font-size: 16px;
+  font-weight: 400;
+} 
+
+#main{
+	display: grid;
+	 max-width: 80%;
+margin: 150px auto;
+justify-content: center;
+height: auto;
+ 	grid-template-columns:2fr 1fr 1fr ;
+border-radius: 5px;
+text-align: center;
+   box-shadow: 0 5px 15px hsla(218, 22%, 67%, 0.4);
+}
+#main h1{ 
+	color: hsl(179, 62%, 43%);
+	text-align: left;
+ font-size: 2rem;
+
+}
+#main h2{color: hsl(71, 73%, 54%);
+	 padding: 10px;
+  font-size: 20px;
+  text-align: left;
+}
+#main p{
+	color:hsl(218, 22%, 67%);
+margin: 10px 0;
+font-size: 15px;
+text-align: left;
+}
+#left h3 ,#right h3{
+	margin-top: 15px;
+	color: #fff;
+	text-align: left;
+	font-size: 1rem;
+
+}
+#right h3{
+	margin-left: 10px;
+	padding: 10px;
+}
+#top
+{ padding: 2px;
+	
+	background-color: #fff;
+	grid-column: 1 / span 3; 
+  padding: 10px;
+ border-radius: 5px 5px;
+  justify-content: center;
+  }
+#left
+{ padding: 2px;
+	
+display: grid;
+   grid-column: 1 /  span 1; 
+ background:hsl(179, 62%, 43%);
+ align-items: center;
+ 
+}
+ #left span {
+ 	font-size: 25px;
+ 	text-align: left;
+ 	color: #fff;
+ 	margin-left: 0;
+
+}
+#left h2{
+	 color:hsla(179, 62%, 47%, 0.9);
+text-align: center;
+margin: 5px auto;
+
+
+}
+main{
+	width: 550px;
+	justify-content: center;
+}
+#right
+{ padding: 2px;
+	
+	display: grid;
+  grid-column: 2 / span 3; 
+  align-items: center;
+   border-radius: 0 0 5px 5px;
+
+   background: hsla(179, 62%, 47%, 0.6);
+margin: 0;
+}
+ul
+{
+	list-style: none;
+	justify-content: center;
+
+}
+ul li{
+	display: list-item;
+	 color: hsl(204, 43%, 93%);
+  margin-bottom: 5px;
+  line-height: 0.4;
+     text-align: start;
+   align-items: center;
+   margin-left: 5px;
+   padding-top: 5px; 
+   padding-bottom:5px;
+
+}
+
+@media (max-width: 500px) {
+ #main{
+ 	width:60%;
+ }
+ #main h1{font-size: 1.5rem;}
+
+ 	#left
+{padding: 10px 0;
+		justify-content: center;
+
+grid-column: 1 / span 3; 
+}
+#right{
+	justify-content: center;
+padding: 10px 0;
+grid-column:1 / span 3;
+ }
+
+ }
+ a {
+ 	 background: hsl(71, 73%, 54%);
+ width: 80%;
+ font-size: 16px;
+ justify-content: center;
+ display: block;
+ text-align: center;
+ align-self: stretch;
+   border-radius: 5px;
+font-weight: 700;
+  height: 50px;
+  padding-top:20px;
+  padding-bottom: 30px;
+  margin:20px auto;
+  color: #fff;
+    }
+ul li{
+	text-align: left;
+	 line-height:0.8;
+font-size: 15px;
+padding-left: 5px;
+ margin-left:  10px ;
+}
+
+}
+}
